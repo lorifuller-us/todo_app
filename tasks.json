@@ -1,0 +1,18 @@
+[
+  {
+    "title": "feed the dogs",
+    "done": true
+  },
+  {
+    "title": "learn python",
+    "done": true
+  },
+  {
+    "title": "do laundry",
+    "done": true
+  },
+  {
+    "title": "meditate",
+    "done": false
+  }
+]
