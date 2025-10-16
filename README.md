@@ -18,23 +18,31 @@ A clean, minimal to‑do list built with Flet (Flutter-like UI for Python). Add,
 ### 1) Install
 ```bash
 pip install flet
-2) Run
-
+```
+### 2) Run
+```bash
 python main.py
 # or
 flet run main.py
+```
 Note: Icons are specified as strings (e.g., "add", "delete_outline") for compatibility across Flet versions.
 
-Project Structure
-
+## Project Structure
+```bash
 .
 ├─ main.py
 ├─ tasks.json            # created automatically (optional; ignored by git)
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
-Configuration
+```
+## Configuration
+
 Persistence: The app writes tasks to tasks.json in the project root. It’s ignored by git by default (see .gitignore). You can delete it anytime to reset.
-Troubleshooting
+
+## Troubleshooting
+```bash
 AttributeError: module 'flet' has no attribute 'icons'
 Use icon strings (already in code), or upgrade Flet: pip install -U flet
+```
+
